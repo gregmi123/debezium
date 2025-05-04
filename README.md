@@ -1,1 +1,3 @@
 # debezium
+
+Debezium is an open-source distributed platform for change data capture (CDC), enabling applications to respond to database changes in real time. Built on top of Apache Kafka, Debezium monitors databases such as MySQL, PostgreSQL, MongoDB, SQL Server, and others, and streams row-level changes—like inserts, updates, and deletes—into Kafka topics. This allows developers to build reactive data pipelines, synchronize data between systems, and audit changes without directly querying the source database. Debezium ensures data consistency and integrity by capturing changes from database logs, offering a reliable and scalable solution for event-driven architectures and microservices.
